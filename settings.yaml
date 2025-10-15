@@ -6,13 +6,13 @@
 
 models:
   default_chat_model:
-    type: azure_openai_chat
-    api_base: "https://gpt-4o-intern.openai.azure.com/"
-    api_version: 2024-12-01-preview
-    deployment_name: gpt-4o-08-06
-    auth_type: api_key
-    api_key: BmaiYil8P7o3Dgv0JzIEIA4JYd3AHl7Jh6SzBdjkwXfF4DNxCzC3JQQJ99BGACYeBjFXJ3w3AAABACOGZkhi
-    #audience: "https://cognitiveservices.azure.com/.default"
+    type: 
+    api_base: 
+    api_version: 
+    deployment_name:
+    auth_type: 
+    api_key: 
+    #audience: 
     # organization: <organization_id>
     model: gpt-4o
     encoding_model: cl100k_base
@@ -24,15 +24,15 @@ models:
     tokens_per_minute: auto
     requests_per_minute: auto
   default_embedding_model:
-    type: azure_openai_embedding
-    api_base: "https://gpt-4o-intern.openai.azure.com/"
-    api_version: 2024-12-01-preview
-    deployment_name: text-embedding-3-large  # <-- Update to your actual embedding deployment name
-    auth_type: api_key
-    api_key: BmaiYil8P7o3Dgv0JzIEIA4JYd3AHl7Jh6SzBdjkwXfF4DNxCzC3JQQJ99BGACYeBjFXJ3w3AAABACOGZkhi
+    type: 
+    api_base: 
+    api_version: 
+    deployment_name: # <-- Update to your actual embedding deployment name
+    auth_type: 
+    api_key: 
     #audience: "https://cognitiveservices.azure.com/.default"
     # organization: <organization_id>
-    model: text-embedding-3-small
+    model: 
     encoding_model: cl100k_base
     model_supports_json: true
     concurrent_requests: 25
